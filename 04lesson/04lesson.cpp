@@ -251,16 +251,16 @@ int main()
 
 
 
-//	int a = 0;
-//	int b = 0;
-//	cin >> a >> b;
-//	int  c = 0;
-//	for (int i = a; i <= b; i++)
-//	{
-//		if (i % 12 == 0)
-//		{
-//			c++;
-//		}
-//	}
-//	cout << c << endl;
+	int a = 0;
+	int b = 0;
+	cin >> a >> b;
+	int  c = 0;
+	for (int i = a; i <= b; i++)
+	{
+		if (i % 12 == 0)
+		{
+			c++;
+		}
+	}
+	cout << c << endl;
 }

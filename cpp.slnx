@@ -5,6 +5,7 @@
   </Configurations>
   <Project Path="03lesson/03lesson.vcxproj" Id="c51fb527-ecae-4ed1-becb-48c94ab4f4a4" />
   <Project Path="04lesson/04lesson.vcxproj" Id="0684af68-1069-454e-b72e-d12f513d7a48" />
+  <Project Path="05lesson/05lesson.vcxproj" Id="ba124eec-c8f8-4f59-97f4-d43005be7240" />
   <Project Path="1_lesson/1_lesson.vcxproj" Id="c636b767-a6b2-453e-b6f5-acfa8087ea3c" />
   <Project Path="2_lesson/2_lesson.vcxproj" Id="06774615-daf0-4f35-adf0-a11f0b286ee0" />
 </Solution>
