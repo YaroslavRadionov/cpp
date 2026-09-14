@@ -14,11 +14,11 @@ void first(int vusota, int dovshuna, string symbol)
 void second(int num)
 {   
     int factorial = 1;
-    for (int i = 0; i < num; i++)
+    for (int i = 1; i <= num; i++)
     {
-        factorial = factorial * num;
+        factorial = factorial * i;
     }
-    cin >> factorial;
+    cout << factorial;
 }
 
 void third(int num)
@@ -53,12 +53,12 @@ void fourths(int arr[], int num)
 
 void fifths(int num)
 {
-    int const num1 = 2;
-    for (int i = 1;i < num1;i++)
+    int num1 = 1;
+    for (int i = 0;i < 3;i++)
     {
-        num = num * num;
+        num1 *= num;
     }
-    cout << num;
+    cout << num1;
 }
 
 void sixths(int num)
