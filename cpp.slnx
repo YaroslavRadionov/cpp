@@ -10,4 +10,5 @@
   <Project Path="07lesson/07lesson.vcxproj" Id="86f0cbd9-775f-4e0a-91f9-1e3544d6e0e1" />
   <Project Path="1_lesson/1_lesson.vcxproj" Id="c636b767-a6b2-453e-b6f5-acfa8087ea3c" />
   <Project Path="2_lesson/2_lesson.vcxproj" Id="06774615-daf0-4f35-adf0-a11f0b286ee0" />
+  <Project Path="ConsoleApplication1/ConsoleApplication1.vcxproj" Id="8e42edfe-e9fb-41b2-8850-e6b3ec66b099" />
 </Solution>
