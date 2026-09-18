@@ -120,12 +120,12 @@ int main()
 	//double c = 50;
 	//cout << "min =" << first4(a, b, c) << endl;
 
-	const int size=10;
-	int arr[size] = {10,12,45,3,7,90,56,3,8,98};
-	int arr1[size][7] = {10,12,45,3,7,90,56,3,8,98};
-	cout << second(arr, size) << endl << third1(arr, size)<<endl<< third2(arr1, size)<< endl;
-	cout << second(arr, size) << endl << third1(arr, size)<<endl<< third2(arr1, size)<< endl;
-	cout << second(arr, size) << endl << third1(arr, size)<<endl<< third2(arr1, size)<< endl;
+	//const int size=10;
+	//int arr[size] = {10,12,45,3,7,90,56,3,8,98};
+	//int arr1[size][7] = {10,12,45,3,7,90,56,3,8,98};
+	//cout << second(arr, size) << endl << third1(arr, size)<<endl<< third2(arr1, size)<< endl;
+	//cout << second(arr, size) << endl << third1(arr, size)<<endl<< third2(arr1, size)<< endl;
+	//cout << second(arr, size) << endl << third1(arr, size)<<endl<< third2(arr1, size)<< endl;
 
 
 
