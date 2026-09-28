@@ -58,14 +58,14 @@ int** DeleteRow(int** arr, int& rows, int& cols)
 }
 int** DeleteRowByPosition(int** arr, int& rows, int cols, int pos)
 {
-	int** temp = new int* [rows + 1];
+	int** temp = new int* [rows - 1];
 	for (int i = 0; i < pos; i++)
 	{
 		temp[i] = arr[i];
 	}
 	for (int i = pos; i < rows; i++)
 	{
-		temp[i + 1] = arr[i];
+		temp[i] = arr[i+1];
 	}
 	delete[]arr[pos];
 	delete[]arr;
@@ -189,12 +189,16 @@ int main()
 	//ShowArray(arr, rows, cols);
 
 	//3
-	//int rows = 4;
-	//int cols = 5;
-	//int** arr = new int* [rows];
-	//for (int i = 0; i < rows; i++){arr[i] = new int[cols];}
-	//arr = DeleteRowByPosition(arr, rows, cols, 2);
-	//ShowArray(arr, rows, cols);
+	int rows = 4;
+	int cols = 5;
+	int pos = 2;
+	int** arr = new int* [rows];
+	for (int i = 0; i < rows; i++) { arr[i] = new int[cols]; }
+	InitArray(arr, rows, cols);
+	ShowArray(arr, rows, cols);
+	cout << "Enter position";cin >> pos;
+	arr = DeleteRowByPosition(arr, rows, cols, pos);
+	ShowArray(arr, rows, cols);
 
 	//4
 	//int rows = 4;
