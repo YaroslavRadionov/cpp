@@ -166,53 +166,54 @@ int main()
 	//ShowArraylong(arrlong, size);
 	//mnoshutulong(arrlong, size);
 
+
 	//2
-	//int size;
-	//int a;
-	//int position;
-	//cout << "Enter a size of array: ";	cin >> size;
-	//int* arrint = CreateArrayint(size);
-	//InitArrayint(arrint, size);
-	//show(arrint, size);
-	//int choice;
-	//while (true) {
-	//	cout << "==============================\n";
-	//	cout << "|     1. Add new element     |\n";
-	//	cout << "|     2. Delete end element  |\n";
-	//	cout << "|     3. Delete element      |\n";
-	//	cout << "|         4. Exit            |\n";
-	//	cout << "==============================\n";
-	//	cout << "Enter choice:";choice = _getch();cout << endl;
-	//	if (choice == '1')
-	//	{
-	//		cout << "\nEnter number : "; cin >> a;
-	//		cout << "\nEnter position: ";position = _getch();
-	//		if (position < 0 || position > size-1) {cout << "Error 404" << endl;}
-	//		arrint = AddNewElement(arrint, &size, a, position);
-	//		show(arrint, size);
-	//	}
-	//	else if (choice == '2')
-	//	{
-	//		arrint = DeleteEndElement(arrint, &size);
-	//		show(arrint, size);
-	//	}
-	//	else if (choice == '3')
-	//	{
-	//		arrint = DeleteElement(arrint, &size, position);
-	//		cout << "\nEnter position: ";position = _getch();
-	//		if (position < 0 || position > size - 1) {cout << "Error 404" << endl;}
-	//		arrint = DeleteElement(arrint, &size, position);
-	//		show(arrint, size);
-	//	}
-	//	else if (choice == '4')
-	//	{
-	//		break;
-	//	}
-	//	else if (choice > 4 or choice < 1)
-	//	{
-	//		cout << "Error 404" << endl;
-	//	}
-	//}
+	int size;
+	int a;
+	int position;
+	cout << "Enter a size of array: ";	cin >> size;
+	int* arrint = CreateArrayint(size);
+	InitArrayint(arrint, size);
+	show(arrint, size);
+	int choice;
+	while (true) {
+		cout << "==============================\n";
+		cout << "|     1. Add new element     |\n";
+		cout << "|     2. Delete end element  |\n";
+		cout << "|     3. Delete element      |\n";
+		cout << "|         4. Exit            |\n";
+		cout << "==============================\n";
+		cout << "Enter choice:";choice = _getch();cout << endl;
+		if (choice == '1')
+		{
+			cout << "\nEnter number : "; cin >> a;
+			cout << "\nEnter position: ";position = _getch();
+			if (position < 0 || position > size-1) {cout << "Error 404" << endl;}
+			arrint = AddNewElement(arrint, &size, a, position);
+			show(arrint, size);
+		}
+		else if (choice == '2')
+		{
+			arrint = DeleteEndElement(arrint, &size);
+			show(arrint, size);
+		}
+		else if (choice == '3')
+		{
+			arrint = DeleteElement(arrint, &size, position);
+			cout << "\nEnter position: ";position = _getch();
+			if (position < 0 || position > size - 1) {cout << "Error 404" << endl;}
+			arrint = DeleteElement(arrint, &size, position);
+			show(arrint, size);
+		}
+		else if (choice == '4')
+		{
+			break;
+		}
+		else if (choice > 4 or choice < 1)
+		{
+			cout << "Error 404" << endl;
+		}
+	}
 
 }
 
