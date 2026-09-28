@@ -189,16 +189,16 @@ int main()
 	//ShowArray(arr, rows, cols);
 
 	//3
-	int rows = 4;
-	int cols = 5;
-	int pos = 2;
-	int** arr = new int* [rows];
-	for (int i = 0; i < rows; i++) { arr[i] = new int[cols]; }
-	InitArray(arr, rows, cols);
-	ShowArray(arr, rows, cols);
-	cout << "Enter position";cin >> pos;
-	arr = DeleteRowByPosition(arr, rows, cols, pos);
-	ShowArray(arr, rows, cols);
+	//int rows = 4;
+	//int cols = 5;
+	//int pos = 2;
+	//int** arr = new int* [rows];
+	//for (int i = 0; i < rows; i++) { arr[i] = new int[cols]; }
+	//InitArray(arr, rows, cols);
+	//ShowArray(arr, rows, cols);
+	//cout << "Enter position";cin >> pos;
+	//arr = DeleteRowByPosition(arr, rows, cols, pos);
+	//ShowArray(arr, rows, cols);
 
 	//4
 	//int rows = 4;
