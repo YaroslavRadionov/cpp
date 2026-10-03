@@ -12,7 +12,10 @@
   <Project Path="10lesson/10lesson.vcxproj" Id="805fb681-efb9-4315-8379-a2e424edfa62" />
   <Project Path="11leson/11leson.vcxproj" Id="8d8a673b-9d23-4d3a-acc6-4bb22ca36157" />
   <Project Path="12lesson/12lesson.vcxproj" Id="a17570d3-ebdf-43c8-8f72-fef047291a43" />
+  <Project Path="13lesson/13lesson.vcxproj" Id="63a12d0b-61bf-407f-bfba-948deef3dff8" />
+  <Project Path="14lesson/14lesson.vcxproj" Id="c97cb384-378b-4f8f-aa54-f9c69ea4ca04" />
   <Project Path="1_lesson/1_lesson.vcxproj" Id="c636b767-a6b2-453e-b6f5-acfa8087ea3c" />
   <Project Path="2_lesson/2_lesson.vcxproj" Id="06774615-daf0-4f35-adf0-a11f0b286ee0" />
+  <Project Path="antiviruses/antiviruses.vcxproj" Id="a3a5d996-df52-4c88-8ac8-e08d75196b50" />
   <Project Path="ConsoleApplication1/ConsoleApplication1.vcxproj" Id="8e42edfe-e9fb-41b2-8850-e6b3ec66b099" />
 </Solution>
